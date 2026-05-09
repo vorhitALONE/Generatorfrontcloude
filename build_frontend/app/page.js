@@ -207,7 +207,7 @@ export default function Page() {
             </div>
           )}
           {stats.total === 0 && (
-            <div style={{ color: "#999", fontSize: 13 }}>Серия не задана — обратитесь к администратору</div>
+            <div style={{ color: "#999", fontSize: 13 }}>сбой</div>
           )}
           {error && <div className="alert" style={{ maxWidth: 520 }}>{error}</div>}
         </div>
