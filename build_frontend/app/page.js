@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState, useCallback } from "react";
 
-const API_URL = "https://vorhitalone-generatorbdcloude-76f1.twc1.net";
+const API_URL = "https://vorhitalone-generatorbdcloude-fec9.twc1.net/";
 
 export default function Page() {
   const [value, setValue] = useState(null);
